@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  background-image: url(assets/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 90vh;
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 20px 100px;
+  height: 62px;
+}
+img {
+  color: red;
+  position: relative;
+  z-index: 1;
+}
+.btn {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+.btn1 {
+  justify-content: left;
+  align-content: left;
+  text-align: start;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+h1 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 200px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-weight: bolder;
+}
+.h12 {
+  margin-top: -20px;
+}
+p {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn3 {
+  position: relative;
+  z-index: 1;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 47%;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+body {
+  background-color: black;
+}
+.seperation {
+  height: 5px;
+  background-color: rgb(69, 68, 68);
+}
+.default-ltr-iqcdef-cache-dulgtd {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  height: 6.25rem;
+  z-index: 1;
+}
+@media (min-width: 1280px) {
+  .default-ltr-iqcdef-cache-1f97ztc {
+    width: 130%;
+    left: -15%;
+  }
+}
+.btn2 {
+  position: relative;
+  z-index: 1;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+.btn1 {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 1px 5px 2px;
+}
+svg {
+  position: relative;
+  z-index: 1;
+  fill: white;
+  justify-content: right;
+  align-items: right;
+  padding: 5px 0px 1px 87px;
+}
+.section1 {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.secImg {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 640 px 480 px;
+}
+.vdo1 {
+  position: absolute;
+  z-index: 1;
+  /* width: 100%;
+  height: 100%; */
+  size: 640 px 480 px;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  margin-top: 10px;
+}
+.secImg {
+  position: relative;
+  margin-top: 1px;
+}
+.p1 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-weight: 600;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-weight: bolder;
+}
+
+.secImg img {
+  width: 755px;
+  position: relative;
+  z-index: 10;
+  margin-top: 10px;
+}
+
+.secImg video {
+  top: 51px;
+  right: 0;
+  width: 755px;
+  margin-top: 10px;
+}
+.container-h {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.boxs {
+  border: 1px solid rgb(147, 142, 142);
+  border-radius: 7px;
+  height: 190px;
+  width: 318px;
+  padding: 20px;
+  font-size: larger;
+  margin-left: 0px;
+}
+p {
+  color: rgb(172, 166, 166);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-left: 1px;
+}
+.faq-p {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  border: 1px solid rgb(61, 60, 60);
+  height: 50px;
+  width: 89%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 60, 60);
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 5px;
+  justify-content: center;
+  align-content: center;
+}
+.section4 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: flex-start;
+  margin-left: 105px;
+  margin-top: 10px;
+}
+.faq-p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 2px;
+}
+.faq-span {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+a {
+  color: rgb(180, 178, 178);
+  text-decoration: none;
+  font-size: 1em;
+}
+.footer-p {
+  color: white;
+  text-align: left;
+  margin: 10px 10px;
+}
+.section4-h {
+  margin: 10px;
+}
+.btn4 {
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 47%;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.imgs {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+  padding: 0 20px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  scroll-behavior: smooth;
+  scroll-padding: 20px;
+  padding-right: 20px;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;   
+}
+.imgs::-webkit-scrollbar {
+  display: none;            
+}
+.top10-h{
+  margin: 20px;
+  font-size:2em;
+  color: white;
+  text-align:start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+  flex: 0 0 200px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
