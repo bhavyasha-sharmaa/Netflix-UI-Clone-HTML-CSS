@@ -24,4 +24,5 @@ This is a beginner project and not fully perfect, but I learned a lot while buil
 Make it fully responsive
 Add animations
 Try adding JavaScript later
+Live Preview at: https://bhavyasha-sharmaa.github.io/Netflix-UI-Clone-HTML-CSS/
 🙌 Thanks for checking it out!
